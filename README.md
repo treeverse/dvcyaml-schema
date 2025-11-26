@@ -15,7 +15,7 @@ Alternatively, you can explicitly configure it by adding the following to your s
 ```json
 {
   "yaml.schemas": {
-    "https://raw.githubusercontent.com/iterative/dvcyaml-schema/master/schema.json":
+    "https://raw.githubusercontent.com/treeverse/dvcyaml-schema/master/schema.json":
         "dvc.yaml"
   }
 }
@@ -37,7 +37,7 @@ natively or through plugins.
 To add it manually, use the following URL to obtain the latest JSON schema for `dvc.yaml`:
 
 ```
-https://raw.githubusercontent.com/iterative/dvcyaml-schema/master/schema.json
+https://raw.githubusercontent.com/treeverse/dvcyaml-schema/master/schema.json
 ```
 
 Check the documentation of your specific editor or IDE for details on how to configure schemas.
